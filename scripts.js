@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (username) {
         try {
-            const response = await fetch('bypass.proxy.com/save-username', {
+            const response = await fetch('https://bypass.proxy.com/save-username', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
