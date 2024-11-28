@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (username) {
         try {
-            const response = await fetch('https://ad350026-b296-4c43-9956-f7a770004eef-00-263nqhdr8w6he.spock.replit.dev/save-username', {
+            const response = await fetch('https://bypqijminsins89jn23jmid-ibmv44yi0-yhs-projects-7139a7ff.vercel.app/save-username', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
