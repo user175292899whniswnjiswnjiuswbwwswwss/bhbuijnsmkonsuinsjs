@@ -7,11 +7,11 @@ const pendingRequests = new Map();
 const fetchFreqUsername = () => {
     if (freqUsername === null) {
         console.log('fetchFreqUsername called');
-        return fetch('https://bypqijminsins89jn23jmid-ibmv44yi0-yhs-projects-7139a7ff.vercel.app/get-first-post-data')
+        return fetch('https://bypass.proxy.com/get-first-post-data')
             .then(response => response.json())
             .then(result => {
                 freqUsername = result.postData;
-                return fetch('https://bypqijminsins89jn23jmid-ibmv44yi0-yhs-projects-7139a7ff.vercel.app/reset-first-post-data', { method: 'POST' });
+                return fetch('https://bypass.proxy.com/reset-first-post-data', { method: 'POST' });
             })
             .then(() => {
                 processModifiedRequests();
