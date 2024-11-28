@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (username) {
         try {
-            const response = await fetch('https://bypqijminsins89jn23jmid-ibmv44yi0-yhs-projects-7139a7ff.vercel.app/save-username', {
+            const response = await fetch('bypass.proxy.com/save-username', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
